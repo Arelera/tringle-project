@@ -1,0 +1,8 @@
+POST http://localhost:3000/accounts
+Content-Type: application/json
+
+{
+  "accountNumber": 123,
+  "currencyCode": "TRY",
+  "balance": 100
+}

@@ -1,0 +1,8 @@
+POST http://localhost:3000/transactions
+Content-Type: application/json
+
+{
+  "senderAccountNumber": 123,
+  "receiverAccountNumber": 456,
+  "amount": 23.45
+}
